@@ -1,0 +1,16 @@
+//não possuí parâmetros
+//como puxar:
+// @extend %nome-do-elemento;
+
+%botao{
+    font-family: $font-secundaria;
+    border: 1px solid $cor-primaria;
+    border-radius: 4px;
+    padding: 0.7rem 1rem;
+    background-color: $cor-terciaria;
+    cursor: pointer;
+    font-size: $font-size-texto;
+    color: $cor-primaria;
+}
+
+

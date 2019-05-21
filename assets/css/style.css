@@ -1,0 +1,79 @@
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #5a287f;
+}
+
+.spanMarcaTexto {
+  position: relative;
+}
+
+.marcaTexto {
+  width: 100%;
+  display: inline-block;
+  background-color: #fff240;
+  height: 0.75rem;
+  position: absolute;
+  z-index: -1;
+  bottom: -0.25rem;
+}
+
+.tituloDestaque {
+  font-size: 2.5rem;
+  color: #5a287f;
+  font-weight: light;
+}
+
+.titulo {
+  font-size: 2rem;
+  color: #5a287f;
+  font-weight: light;
+}
+
+.tituloCard {
+  font-size: 1.25rem;
+  color: #5a287f;
+  font-weight: light;
+}
+
+.tituloNoticia {
+  font-family: "Noticia Text", serif;
+  font-size: 1.25rem;
+  color: #5a287f;
+  font-weight: light;
+}
+
+li {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (max-width: 420px) {
+  .container {
+    width: 90%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+/*# sourceMappingURL=style.css.map */
