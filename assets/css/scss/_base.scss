@@ -19,11 +19,15 @@ body{
     height: 0.75rem;
     position: absolute;
     z-index: -1;
-    bottom: -0.25rem;
+    bottom: 0.25rem;
 }
 
 .tituloDestaque{
-    @include titulo($font-size-destaque)
+    @include titulo($font-size-destaque);
+
+    @media (max-width: $tablet-hor){
+        font-size: $font-size-titulo;
+    }
 }//titulo header
 
 .titulo{
@@ -51,8 +55,7 @@ a{
 
 .container{
     width: 80%;
-    @include flex(center, center);
-    
+    margin: 0 auto;    
     
     @media (max-width: $mobile) {
         width: 90%;
