@@ -1,0 +1,65 @@
+// o que vai no body
+// classes que seram repetida tipo container
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: $font-padrao;
+    font-size: $font-size-padrao;
+    color: $cor-primaria;
+}
+
+.spanMarcaTexto{
+    position: relative;
+}
+.marcaTexto{
+    width: 100%;
+    display: inline-block;
+    background-color: $sublinhado;
+    height: 0.75rem;
+    position: absolute;
+    z-index: -1;
+    bottom: -0.25rem;
+}
+
+.tituloDestaque{
+    @include titulo($font-size-destaque)
+}//titulo header
+
+.titulo{
+    @include titulo($font-size-titulo)
+}//demais titulos, excetos os cards
+
+.tituloCard{
+    @include titulo($font-size-subtitulo)
+}
+
+.tituloNoticia{
+    font-family: $font-secundaria;
+    @include titulo($font-size-subtitulo)
+}
+
+li{
+    list-style: none;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.container{
+    width: 80%;
+    @include flex(center, center);
+    
+    
+    @media (max-width: $mobile) {
+        width: 90%;
+        flex-wrap: wrap;       
+    }
+}
+
+
+
+
