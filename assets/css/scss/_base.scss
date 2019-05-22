@@ -28,6 +28,10 @@ body{
 
 .tituloDestaque{
     @include titulo($font-size-destaque);
+
+    @media (max-width: $tablet-hor){
+        font-size: $font-size-titulo;
+    }
 }//titulo header
 
 .titulo{
