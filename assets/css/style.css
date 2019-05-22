@@ -58,6 +58,44 @@ a {
 
 .container {
   width: 80%;
+  margin: 0 auto;
+}
+
+@media (max-width: 420px) {
+  .container {
+    width: 90%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+.footerBg {
+  background-image: url(../img/fotos/bg-contato.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-bottom: 238px;
+}
+
+.footerTitulo {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin-top: 69px;
+  margin-bottom: 59px;
+  z-index: 1;
+}
+
+.spanMarcaTexto {
+  z-index: 2;
+}
+
+.footerBox--conteudo {
+  width: 50%;
+  margin: auto;
+}
+
+.footerRedes {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -67,6 +105,18 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.footerBox {
+  margin: 0 auto;
+  width: 55%;
+  background-color: #fff;
+  -webkit-box-shadow: 1px 2px 3px 2px rgba(0, 0, 0, 0.16);
+          box-shadow: 1px 2px 3px 2px rgba(0, 0, 0, 0.16);
+  padding: 40px 0;
 }
 
 @media (max-width: 420px) {
@@ -74,6 +124,67 @@ a {
     width: 90%;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+  }
+}
+
+.footerRedes {
+  padding: 0;
+  margin: 0;
+}
+
+.footerRedes li {
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+.footerRedes a {
+  cursor: pointer;
+}
+
+.footerCopyright {
+  padding: 4px;
+  background-color: #5a287f;
+  color: #fff;
+  font-size: 0.88rem;
+  font-weight: lighter;
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .footerBox--conteudo {
+    width: 70%;
+  }
+  .footerRedes {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .footerH3 {
+    margin: 0;
+  }
+  .footerBg {
+    padding-bottom: 135px;
+  }
+}
+
+@media (max-width: 715px) {
+  .footerBox {
+    width: 65%;
+  }
+}
+
+@media (max-width: 420px) {
+  .footerCopyright {
+    font-size: 0.70rem;
+  }
+  .footerBox {
+    width: 90%;
+    text-align: center;
+  }
+  .footerBg {
+    padding-bottom: 50px;
+  }
+  .footerTitulo {
+    margin: 20px 0;
   }
 }
 /*# sourceMappingURL=style.css.map */
