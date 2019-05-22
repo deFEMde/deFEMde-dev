@@ -1,6 +1,10 @@
 // o que vai no body
 // classes que seram repetida tipo container
 
+* {
+    box-sizing: border-box;
+}
+
 body{
     box-sizing: border-box;
     margin: 0;
@@ -19,7 +23,7 @@ body{
     height: 0.75rem;
     position: absolute;
     z-index: -1;
-    bottom: -0.25rem;
+    bottom: 0.25rem;
 }
 
 .tituloDestaque{
@@ -51,14 +55,16 @@ a{
 
 .container{
     width: 80%;
-    @include flex(center, center);
-    
+    margin: 0 auto;    
     
     @media (max-width: $mobile) {
         width: 90%;
+        @include flex(center, center);
         flex-wrap: wrap;       
     }
 }
+
+
 
 
 
