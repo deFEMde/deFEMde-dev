@@ -69,24 +69,37 @@ a {
 @media (max-width: 420px) {
   .container {
     width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
 }
-
-
 
 .bgMain {
   height: 40vh;
   overflow: hidden;
 }
 
-.bgMain > img {
-  -o-object-fit: cover;
-     object-fit: cover;
+@media (max-width: 1024px) {
+  .bgMain > img {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
 }
 
-.container--flex {
+.span--bold {
+  font-weight: bold;
+}
+
+.containerMain--flex {
   width: 80%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -103,7 +116,7 @@ a {
 }
 
 @media (max-width: 768px) {
-  .container--flex {
+  .containerMain--flex {
     margin-top: -8rem;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -113,7 +126,7 @@ a {
 }
 
 @media (max-width: 420px) {
-  .container--flex {
+  .containerMain--flex {
     margin-top: -4rem;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -195,9 +208,6 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
@@ -212,21 +222,10 @@ a {
   padding: 40px 0;
 }
 
-@media (max-width: 420px) {
-  .container {
-    width: 90%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
+.footerH3 {
+  font-size: 1.60rem;
+  font-weight: normal;
+  margin: 0 0 34px 0;
 }
 
 .footerRedes {
@@ -273,9 +272,6 @@ a {
     width: 65%;
   }
 }
-
-
-
 
 @media (max-width: 420px) {
   .footerCopyright {
