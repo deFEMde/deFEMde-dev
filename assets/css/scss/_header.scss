@@ -1,0 +1,40 @@
+.header {
+    background-color: $bg-primario;
+    padding-top: 134px; //altura nav
+    z-index: -2;
+    position: relative;
+}
+
+.containerDestaque {
+    width: 70%;
+    padding-top: 4rem;
+    //incluir margin-bottom   
+}
+
+@media (max-width: $tablet-hor) {    
+    .spanMarcaTexto {
+        font-weight: bold;
+    }
+    
+    .marcaTexto {
+        display: none;
+    }
+}
+
+@media (max-width: $tablet-ver){
+    .containerDestaque {
+        width: 100%;
+    }
+
+    .tituloDestaque {
+        @include tituloMobile($font-size-titulo);
+    }
+}
+
+//teste
+
+section {
+    background-color: $bg-secundario;
+    padding: 100px 0;
+    color: $cor-terciaria;
+}

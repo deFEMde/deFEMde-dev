@@ -1,0 +1,84 @@
+.nav {
+    background-color: $bg-primario;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.navSombra {
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+.containerNav {
+    @include flex(flex-start, space-between);
+}
+
+.navLogo {
+    display: none;
+    margin: 0.625rem 0;
+}
+
+.navLogo.ativo {
+    display: block;
+}
+
+.navMenu {
+    margin-top: 1.875rem;
+    padding: 0;
+}
+
+.navMenu li {
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.navMenu li + li {
+    margin-left: 1rem;
+}
+
+//inicio menu hamburguer
+.containerNav--menuHamburguer {
+    display: none;
+    text-align: right;
+}
+
+.menuHamburguer {
+    font-size: $font-size-titulo;
+}
+
+.menuDropdown {
+    display: none;
+    position: absolute;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.menuDropdown li {
+    border: none;
+    text-align: right; 
+    text-transform: uppercase;
+    font-size: $font-size-subtitulo;
+    padding: 0.5rem 1.5rem 0.5rem 2.5rem;
+    background-color: $bg-primario;
+}
+
+.menuDropdown li + li {
+    border-top: 1px solid $divisoria;
+}
+
+@media (max-width: $mobile){
+    .containerNav {
+        @include flex(center, space-between);
+    }
+
+    .navMenu {
+        display: none;
+    }
+
+    .containerNav--menuHamburguer {
+        display: block;
+    }
+}

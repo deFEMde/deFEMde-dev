@@ -15,3 +15,9 @@
     font-weight: lighter;
 }
 
+@mixin tituloMobile($tamanho){
+    font-size: $tamanho;
+    color: $cor-primaria;
+    font-weight: normal;
+}
+
