@@ -1,33 +1,17 @@
-// .containerHeader {
-//     incluir margin-bottom
-// }
-
-.headerNav {
-    @include flex(center, space-between);
+.header {
+    background-color: $bg-primario;
+    padding-top: 134px; //altura nav
+    z-index: -2;
+    position: relative;
 }
 
-.headerNav--logo {
-    height: 7.5rem;
-    margin: 0.625rem 0;
-}
-
-.headerNav--menu li {
-    display: inline-block;
-    text-transform: uppercase;
-    margin-left: 1rem;
-}
-
-.headerNav--menuHamburguer {
-    display: none;
-    font-size: $font-size-titulo;
-}
-
-.headerDestaque {
+.containerDestaque {
     width: 70%;
-    margin-top: 7.5rem;   
+    padding-top: 4rem;
+    //incluir margin-bottom   
 }
 
-@media (max-width: $tablet-hor) {
+@media (max-width: $tablet-hor) {    
     .spanMarcaTexto {
         font-weight: bold;
     }
@@ -38,15 +22,19 @@
 }
 
 @media (max-width: $tablet-ver){
-    .headerNav--menu {
-        display: none;
-    }
-
-    .headerNav--menuHamburguer {
-        display: block;
-    }
-
-    .headerDestaque {
+    .containerDestaque {
         width: 100%;
     }
+
+    .tituloDestaque {
+        @include tituloMobile($font-size-titulo);
+    }
+}
+
+//teste
+
+section {
+    background-color: $bg-secundario;
+    padding: 100px 0;
+    color: $cor-terciaria;
 }

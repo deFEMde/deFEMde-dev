@@ -1,5 +1,5 @@
 // o que vai no body
-// classes que seram repetida tipo container
+// classes que serão repetidas tipo container
 
 body{
     box-sizing: border-box;
@@ -24,10 +24,6 @@ body{
 
 .tituloDestaque{
     @include titulo($font-size-destaque);
-
-    @media (max-width: $tablet-hor){
-        font-size: $font-size-titulo;
-    }
 }//titulo header
 
 .titulo{
