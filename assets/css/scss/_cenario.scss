@@ -1,0 +1,91 @@
+.cenario {
+    background-color: $bg-secundario;
+    text-align: center;
+}
+
+.imgCenario {
+    background-image: url(../img/lindsey-lamont-1309649-unsplash.jpg);
+    background-size: cover; 
+    background-position-y: center;
+    height: 37.5rem;
+
+    @media (max-width: $tablet-ver) {
+        height: 25rem;
+        background-position-x: center;
+    }
+}
+
+.tituloCenario {
+    color: $cor-terciaria;
+    color: $cor-terciaria;
+}
+
+.descricaoCenario {
+    color: $cor-terciaria;
+    font-size: 1.25rem;
+    font-weight: lighter;
+
+    span {
+        font-weight: 400;
+    }
+}
+
+.cardsCenario {
+    @include flex (center, space-between);
+    padding: 3.125rem 0;
+
+    @media (max-width: $tablet-ver) {
+        flex-direction: column;
+    }
+
+    @media (max-width: $mobile) {
+        padding-top: 2rem;
+    }
+}
+
+.card{    
+    width: 30%;
+    min-height: 15.0625rem;
+    background-color: $branco;
+    padding: 1.5rem;
+    border-radius: 4px;
+    box-shadow: 8px 10px 8px 0 rgba(0, 0, 0, 0.16);
+    position: relative;
+
+    @media (max-width: $tablet-hor){
+        min-height: 18rem;
+    }
+
+    @media (max-width: $tablet-ver){
+        width: 50%;
+        min-height: 14.8rem;
+        margin-bottom: 1.25rem;
+    }
+
+    @media (max-width: $mobile){
+        width: 90%;
+        min-height: 17rem;
+    }
+
+    .cardTexto {
+        p {
+            font-size: $font-size-texto;
+            margin: 0.3125rem;
+        }
+
+        .cardFonte {
+            font-weight: lighter;
+            text-align: right;
+            font-size: $font-size-footer;
+            position: absolute;
+            bottom: 1rem;
+            right: 1rem;
+        }
+    
+        h3 {
+            text-transform: uppercase;
+            margin: 0;
+            margin-bottom: 10px;
+        }
+    }
+}

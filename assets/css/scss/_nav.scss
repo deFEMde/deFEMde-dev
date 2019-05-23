@@ -12,6 +12,10 @@
 
 .containerNav {
     @include flex(flex-start, space-between);
+
+    @media (max-width: $mobile){
+        @include flex(center, space-between);
+    }
 }
 
 .navLogo {
@@ -23,9 +27,21 @@
     display: block;
 }
 
+#logoOriginal {
+    width: 11.25rem;
+}
+
+#logoReduzida {
+    width: 7.5rem;
+    padding-top: 0.3125rem;
+}
+
 .navMenu {
-    margin-top: 1.875rem;
+    margin-top: 1.375rem;
     padding: 0;
+    @media (max-width: $mobile){   
+        display: none;
+    }
 }
 
 .navMenu li {
@@ -41,7 +57,11 @@
 .containerNav--menuHamburguer {
     display: none;
     text-align: right;
+    @media (max-width: $mobile){
+      display: block;
+    }
 }
+
 
 .menuHamburguer {
     font-size: $font-size-titulo;
@@ -67,22 +87,9 @@
     border-top: 1px solid $divisoria;
 }
 
-@media (max-width: $tablet-ver){
-    .navTablet {
+.navTablet {
+    @media (max-width: $tablet-ver){
         width: 85%;
     }
 }
 
-@media (max-width: $mobile){
-    .containerNav {
-        @include flex(center, space-between);
-    }
-
-    .navMenu {
-        display: none;
-    }
-
-    .containerNav--menuHamburguer {
-        display: block;
-    }
-}

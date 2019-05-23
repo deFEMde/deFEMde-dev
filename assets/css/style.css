@@ -72,6 +72,20 @@ a {
   margin: 0 auto;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+@media (max-width: 420px) {
+  .container {
+    width: 90%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+
+>>>>>>> d8d6b257722cd8f6b3e4666c0e78b9c08cc1aea3
 .nav {
   background-color: #fff;
   position: fixed;
@@ -97,6 +111,24 @@ a {
           justify-content: space-between;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+@media (max-width: 420px) {
+  .containerNav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+>>>>>>> d8d6b257722cd8f6b3e4666c0e78b9c08cc1aea3
 .navLogo {
   display: none;
   margin: 0.625rem 0;
@@ -106,6 +138,31 @@ a {
   display: block;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+#logoOriginal {
+  width: 11.25rem;
+}
+
+#logoReduzida {
+  width: 7.5rem;
+  padding-top: 0.3125rem;
+}
+
+.navMenu {
+  margin-top: 1.375rem;
+  padding: 0;
+}
+
+@media (max-width: 420px) {
+  .navMenu {
+    display: none;
+  }
+}
+
+=======
+>>>>>>> d8d6b257722cd8f6b3e4666c0e78b9c08cc1aea3
 .navMenu {
   margin-top: 1.875rem;
   padding: 0;
@@ -125,12 +182,36 @@ a {
   text-align: right;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+@media (max-width: 420px) {
+  .containerNav--menuHamburguer {
+    display: block;
+  }
+}
+
+>>>>>>> d8d6b257722cd8f6b3e4666c0e78b9c08cc1aea3
 .menuHamburguer {
   font-size: 2rem;
 }
 
 .menuDropdown {
   display: none;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+  margin: 0;
+  padding: 0;
+  -webkit-box-shadow: 0 6px 6px -2px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 6px 6px -2px rgba(0, 0, 0, 0.2);
+=======
+  position: absolute;
+  right: 0;
+=======
+>>>>>>> 68faa1c... [2305] modificações header
+>>>>>>> d8d6b257722cd8f6b3e4666c0e78b9c08cc1aea3
   margin: 0;
   padding: 0;
   -webkit-box-shadow: 0 6px 6px -2px rgba(0, 0, 0, 0.2);
@@ -150,12 +231,26 @@ a {
   border-top: 1px solid #e8e8e8;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+@media (max-width: 768px) {
+  .navTablet {
+    width: 85%;
+=======
+=======
+>>>>>>> d8d6b257722cd8f6b3e4666c0e78b9c08cc1aea3
 @media (max-width: 768px) {
   .navTablet {
     width: 85%;
   }
 }
 
+<<<<<<< HEAD
+=======
+>>>>>>> 68faa1c... [2305] modificações header
+>>>>>>> d8d6b257722cd8f6b3e4666c0e78b9c08cc1aea3
 @media (max-width: 420px) {
   .containerNav {
     display: -webkit-box;
@@ -178,6 +273,12 @@ a {
 
 .header {
   background-color: #fff;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+  padding-top: 7.625rem;
+=======
+>>>>>>> d8d6b257722cd8f6b3e4666c0e78b9c08cc1aea3
   padding-top: 134px;
   z-index: -2;
   position: relative;
@@ -188,6 +289,25 @@ a {
   padding-top: 4rem;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+@media (max-width: 768px) {
+  .containerDestaque {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .spanMarcaTextoHeader {
+    font-weight: bold;
+  }
+}
+
+@media (max-width: 1024px) {
+  .marcaTextoHeader {
+=======
+>>>>>>> d8d6b257722cd8f6b3e4666c0e78b9c08cc1aea3
 @media (max-width: 1024px) {
   .spanMarcaTexto {
     font-weight: bold;
@@ -198,6 +318,10 @@ a {
 }
 
 @media (max-width: 768px) {
+<<<<<<< HEAD
+=======
+
+>>>>>>> d8d6b257722cd8f6b3e4666c0e78b9c08cc1aea3
   .containerDestaque {
     width: 100%;
   }
@@ -300,6 +424,108 @@ a {
   margin: 0;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+@media (max-width: 768px) {
+  .noticiasTitulo--div {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+.tituloNoticia {
+  margin-bottom: 2.86rem;
+}
+
+.noticiasDivMae {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .noticiasDivMae {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.noticiasNoticia1, .noticiasNoticia2 {
+  height: 22.86rem;
+  width: 49%;
+  opacity: 0.7;
+  position: relative;
+  background-size: cover;
+}
+
+@media (max-width: 768px) {
+  .noticiasNoticia1, .noticiasNoticia2 {
+    width: 100%;
+    margin-bottom: 1.43rem;
+  }
+}
+
+.noticiasNoticia1 {
+  background-image: url(../img/fotos/noticia1.jpg);
+}
+
+.noticiasNoticia2 {
+  background-image: url(../img/fotos/noticia2.jpg);
+}
+
+.noticiasNoticia1:hover, .noticiasNoticia2:hover {
+  opacity: 0.9;
+  -webkit-transition: 1s opacity ease;
+  transition: 1s opacity ease;
+}
+
+.noticiaChamada {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: right;
+  color: #fff;
+  padding-right: 0.86rem;
+}
+
+.Noticia1--titulo, .Noticia2--titulo {
+  display: inline-block;
+  width: 80%;
+  font-weight: 500;
+}
+
+.Noticia1--subtitulo, .Noticia2--subtitulo {
+  margin-top: 0;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.noticiasBtn {
+  margin-top: 2.86rem;
+  margin-top: 40px;
+}
+
+.noticiaBtn--div {
+  text-align: right;
+}
+
+@media (max-width: 768px) {
+  .noticiaBtn--div {
+    text-align: center;
+  }
+}
+
+
+>>>>>>> d8d6b257722cd8f6b3e4666c0e78b9c08cc1aea3
 .footerBg {
   background-image: url(../img/fotos/bg-contato.png);
   background-repeat: no-repeat;
@@ -308,6 +534,17 @@ a {
   padding-bottom: 238px;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+@media (max-width: 1024px) {
+  .footerBg {
+    padding-bottom: 135px;
+  }
+}
+
+
+>>>>>>> d8d6b257722cd8f6b3e4666c0e78b9c08cc1aea3
 .footerTitulo {
   display: inline-block;
   width: 100%;
@@ -317,6 +554,17 @@ a {
   z-index: 1;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+@media (max-width: 420px) {
+  .footerTitulo {
+    margin: 20px 0;
+  }
+}
+
+
+>>>>>>> d8d6b257722cd8f6b3e4666c0e78b9c08cc1aea3
 .spanMarcaTexto {
   z-index: 2;
 }
@@ -326,6 +574,65 @@ a {
   margin: auto;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+@media (max-width: 1024px) {
+  .footerBox--conteudo {
+    text-align: center;
+    width: 72%;
+  }
+}
+
+@media (max-width: 720px) {
+  .footerBox--conteudo {
+    width: 75%;
+  }
+}
+
+@media (max-width: 420px) {
+  .footerBox--conteudo {
+    width: 80%;
+  }
+}
+
+.footerRedes {
+.cenario {
+  background-color: #5a287f;
+  text-align: center;
+}
+
+.imgCenario {
+  background-image: url(../img/lindsey-lamont-1309649-unsplash.jpg);
+  background-size: cover;
+  background-position-y: center;
+  height: 37.5rem;
+}
+
+@media (max-width: 768px) {
+  .imgCenario {
+    height: 25rem;
+    background-position-x: center;
+  }
+}
+
+.tituloCenario {
+  color: #fff;
+  color: #fff;
+}
+
+.descricaoCenario {
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: lighter;
+}
+
+.descricaoCenario span {
+  font-weight: 400;
+}
+
+.cardsCenario {
+>>>>>>> d8d6b257722cd8f6b3e4666c0e78b9c08cc1aea3
 .footerRedes {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -347,22 +654,109 @@ a {
   padding: 40px 0;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+@media (max-width: 1024px) {
+  .footerBox {
+    width: 55%;
+  }
+}
+
+@media (max-width: 720px) {
+  .footerBox {
+    width: 65%;
+  }
+}
+
+@media (max-width: 600px) {
+  .footerBox {
+    width: 90%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 3.125rem 0;
+}
+
+@media (max-width: 768px) {
+  .cardsCenario {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (max-width: 420px) {
+  .footerBox {
+    width: 90%;
+    text-align: center;
+  }
+}
+
+=======
+>>>>>>> cb01ab9... [2305] atualização header para develop
+>>>>>>> d8d6b257722cd8f6b3e4666c0e78b9c08cc1aea3
 .footerH3 {
   font-size: 1.60rem;
   font-weight: normal;
   margin: 0 0 34px 0;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+@media (max-width: 1024px) {
+  .footerH3 {
+    margin: 0;
+  }
+}
+
+@media (max-width: 720px) {
+  .footerH3 {
+    text-align: center;
+  }
+}
+
+=======
+>>>>>>> cb01ab9... [2305] atualização header para develop
+>>>>>>> d8d6b257722cd8f6b3e4666c0e78b9c08cc1aea3
 .footerRedes {
   padding: 0;
   margin: 0;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+@media (max-width: 1024px) {
+  .footerRedes {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+}
+
+=======
+>>>>>>> cb01ab9... [2305] atualização header para develop
+>>>>>>> d8d6b257722cd8f6b3e4666c0e78b9c08cc1aea3
 .footerRedes li {
   font-size: 40px;
   margin-bottom: 0;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+@media (max-width: 420px) {
+  .footerRedes li {
+    font-size: 35px;
+  }
+}
+
+=======
+>>>>>>> cb01ab9... [2305] atualização header para develop
+>>>>>>> d8d6b257722cd8f6b3e4666c0e78b9c08cc1aea3
 .footerRedes a {
   cursor: pointer;
 }
@@ -402,6 +796,14 @@ a {
   .footerCopyright {
     font-size: 0.70rem;
   }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+}
+
+.copyrightSpan {
+  color: #ad94bf;
+>>>>>>> d8d6b257722cd8f6b3e4666c0e78b9c08cc1aea3
   .footerBox {
     width: 90%;
     text-align: center;
@@ -413,4 +815,68 @@ a {
     margin: 20px 0;
   }
 }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+.copyrightSpan {
+  color: #ad94bf;
+  .cardsCenario {
+    padding-top: 2rem;
+  }
+}
+
+.card {
+  width: 30%;
+  min-height: 15.0625rem;
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 4px;
+  -webkit-box-shadow: 8px 10px 8px 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 8px 10px 8px 0 rgba(0, 0, 0, 0.16);
+  position: relative;
+}
+
+@media (max-width: 1024px) {
+  .card {
+    min-height: 18rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 50%;
+    min-height: 14.8rem;
+    margin-bottom: 1.25rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .card {
+    width: 90%;
+    min-height: 17rem;
+  }
+}
+
+.card .cardTexto p {
+  font-size: 1rem;
+  margin: 0.3125rem;
+}
+
+.card .cardTexto .cardFonte {
+  font-weight: lighter;
+  text-align: right;
+  font-size: 0.88rem;
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+.card .cardTexto h3 {
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+>>>>>>> d8d6b257722cd8f6b3e4666c0e78b9c08cc1aea3
 /*# sourceMappingURL=style.css.map */

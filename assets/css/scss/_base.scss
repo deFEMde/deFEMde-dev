@@ -60,6 +60,12 @@ a{
 .container{
     width: 80%;
     margin: 0 auto;    
+    
+    @media (max-width: $mobile) {
+        width: 90%;
+        flex-wrap: wrap;       
+    }
+>>>>>>> d8d6b257722cd8f6b3e4666c0e78b9c08cc1aea3
 }
 
 

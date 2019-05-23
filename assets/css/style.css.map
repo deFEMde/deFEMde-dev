@@ -12,6 +12,7 @@
         "scss/_quemSomos.scss",
         "scss/_oQueFazemos.scss",
         "scss/_impacto.scss",
+        "scss/_cenario.scss",
         "scss/_noticias.scss",
         "scss/_footer.scss"
     ],

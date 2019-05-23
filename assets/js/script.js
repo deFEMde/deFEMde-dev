@@ -3,14 +3,12 @@ $(document).ready(function(){
     //nav fixa com transição da logo
     $(window).scroll(function(){
         if($(this).scrollTop()>100){
-            $('#logoOriginal').fadeOut().removeClass('ativo');
-            $('#logoOriginal').hide();
-            $('#logoReduzida').fadeIn().addClass('ativo');
+            $('#logoOriginal').removeClass('ativo');
+            $('#logoReduzida').addClass('ativo');
             $('.nav').addClass('navSombra');
         } else {
-            $('#logoReduzida').fadeOut().removeClass('ativo');
-            $('#logoReduzida').hide();
-            $('#logoOriginal').fadeIn().addClass('ativo');
+            $('#logoReduzida').removeClass('ativo');
+            $('#logoOriginal').addClass('ativo');
             $('.nav').removeClass('navSombra');
         }
     });

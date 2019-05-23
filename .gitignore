@@ -1,2 +1,20 @@
+<<<<<<< HEAD
 style.css
 style.css.map
+=======
+_base.scss
+_extend.scss
+_footer.scss
+_impacto.scss
+_mixins.scss
+_noticias.scss
+_oQueFazemos.scss
+_header.scss
+_impacto.scss
+_quemSomos.scss
+_variaveis.scss
+_vazio.scss
+style.css
+style.css.map
+img
+>>>>>>> d8d6b257722cd8f6b3e4666c0e78b9c08cc1aea3
