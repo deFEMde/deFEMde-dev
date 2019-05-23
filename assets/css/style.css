@@ -225,6 +225,23 @@ a {
   }
 }
 
+@media (max-width: 1024px) {
+  section {
+    background-color: #5a287f;
+    padding: 100px 0;
+    color: #fff;
+  }
+  .headerNav--menu {
+    display: none;
+  }
+  .headerNav--menuHamburguer {
+    display: block;
+  }
+  .headerDestaque {
+    width: 100%;
+  }
+}
+
 .bgMain {
   height: 40vh;
   overflow: hidden;
@@ -325,6 +342,12 @@ a {
   padding-bottom: 238px;
 }
 
+@media (max-width: 1024px) {
+  .footerBg {
+    padding-bottom: 135px;
+  }
+}
+
 .footerTitulo {
   display: inline-block;
   width: 100%;
@@ -334,6 +357,12 @@ a {
   z-index: 1;
 }
 
+@media (max-width: 420px) {
+  .footerTitulo {
+    margin: 20px 0;
+  }
+}
+
 .spanMarcaTexto {
   z-index: 2;
 }
@@ -341,6 +370,25 @@ a {
 .footerBox--conteudo {
   width: 50%;
   margin: auto;
+}
+
+@media (max-width: 1024px) {
+  .footerBox--conteudo {
+    text-align: center;
+    width: 72%;
+  }
+}
+
+@media (max-width: 720px) {
+  .footerBox--conteudo {
+    width: 75%;
+  }
+}
+
+@media (max-width: 420px) {
+  .footerBox--conteudo {
+    width: 80%;
+  }
 }
 
 .footerRedes {
@@ -364,10 +412,47 @@ a {
   padding: 40px 0;
 }
 
+@media (max-width: 1024px) {
+  .footerBox {
+    width: 55%;
+  }
+}
+
+@media (max-width: 720px) {
+  .footerBox {
+    width: 65%;
+  }
+}
+
+@media (max-width: 600px) {
+  .footerBox {
+    width: 90%;
+  }
+}
+
+@media (max-width: 420px) {
+  .footerBox {
+    width: 90%;
+    text-align: center;
+  }
+}
+
 .footerH3 {
   font-size: 1.60rem;
   font-weight: normal;
   margin: 0 0 34px 0;
+}
+
+@media (max-width: 1024px) {
+  .footerH3 {
+    margin: 0;
+  }
+}
+
+@media (max-width: 720px) {
+  .footerH3 {
+    text-align: center;
+  }
 }
 
 .footerRedes {
@@ -375,9 +460,23 @@ a {
   margin: 0;
 }
 
+@media (max-width: 1024px) {
+  .footerRedes {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+}
+
 .footerRedes li {
   font-size: 40px;
   margin-bottom: 0;
+}
+
+@media (max-width: 420px) {
+  .footerRedes li {
+    font-size: 35px;
+  }
 }
 
 .footerRedes a {
@@ -393,10 +492,36 @@ a {
   text-align: center;
 }
 
+@media (max-width: 1024px) {
+  .footerBox--conteudo {
+    width: 70%;
+  }
+  .footerRedes {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .footerH3 {
+    margin: 0;
+  }
+  .footerBg {
+    padding-bottom: 135px;
+  }
+}
+
+@media (max-width: 715px) {
+  .footerBox {
+    width: 65%;
+  }
+}
+
 @media (max-width: 420px) {
   .footerCopyright {
     font-size: 0.70rem;
   }
+}
+
+.copyrightSpan {
+  color: #ad94bf;
   .footerBox {
     width: 90%;
     text-align: center;
