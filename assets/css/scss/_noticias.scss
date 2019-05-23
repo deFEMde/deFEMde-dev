@@ -1,0 +1,103 @@
+// 1280px (desktop)
+// 1024px (tablet - horizontal)
+// 768px (tablet - vertical)
+// 420px (mobile)
+
+//inicio noticias Talita
+
+.noticiasTitulo--div{
+    // width: 30%; 
+
+    @media (max-width: $tablet-ver) {
+        text-align: center;
+        width: 100%;
+    }
+}
+
+.tituloNoticia{
+    margin-bottom: 2.86rem;
+}
+
+.noticiasDivMae{
+    @include flex(center, space-between);
+
+    @media (max-width: $tablet-ver) {
+        flex-direction: column;
+        
+    }
+}
+
+.noticiasNoticia1, .noticiasNoticia2 {
+    height: 22.86rem;
+    width: 49%;
+    opacity: 0.7;
+    position: relative;
+    background-size: cover;
+
+    @media (max-width: $tablet-ver) {
+        width: 100%;
+        margin-bottom: 1.43rem;
+    }
+}
+
+.noticiasNoticia1{
+    background-image: url(../img/fotos/noticia1.jpg);
+}
+
+.noticiasNoticia2{
+    background-image: url(../img/fotos/noticia2.jpg);
+}
+
+.noticiasNoticia1:hover, .noticiasNoticia2:hover {
+    opacity: 0.9;
+    transition: 1s opacity ease;
+}
+
+.noticiaChamada{
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    text-align: right;
+    color: $cor-terciaria;
+    padding-right: 0.86rem;
+    
+}
+
+.Noticia1--titulo, .Noticia2--titulo{
+    display: inline-block;
+    width: 80%;
+    font-weight: 500;
+}
+
+.Noticia1--subtitulo, .Noticia2--subtitulo{
+    margin-top: 0;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.noticiasBtn{
+    @extend %botao;
+    margin-top: 2.86rem;
+    margin-top: 40px;
+
+}
+
+
+
+.noticiaBtn--div{
+    text-align: right;
+
+    @media (max-width: $tablet-ver) {
+        text-align: center;
+        
+    }
+}
+
+//fim noticias Talita
+
+
+
+
+
+
+
