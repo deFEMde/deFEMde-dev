@@ -1,0 +1,27 @@
+_base.scss
+_extend.scss
+<<<<<<< HEAD
+_footer.scss
+_impacto.scss
+_mixins.scss
+_noticias.scss
+_oQueFazemos.scss
+=======
+_header.scss
+_impacto.scss
+_mixins.scss
+_noticias.scss
+_oQUeFazemos.scss
+>>>>>>> d628921... [footer] 2305 1 resolvendo rebase
+_quemSomos.scss
+_variaveis.scss
+_vazio.scss
+style.css
+style.css.map
+style.scss
+img
+<<<<<<< HEAD
+style.css
+style.css.map
+=======
+>>>>>>> d628921... [footer] 2305 1 resolvendo rebase
