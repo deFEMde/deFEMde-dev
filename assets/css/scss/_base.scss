@@ -1,12 +1,9 @@
 // o que vai no body
 // classes que serão repetidas tipo container
-<<<<<<< HEAD
-=======
 
 * {
     box-sizing: border-box;
 }
->>>>>>> bf3ae687afc20eb0bc7edf7e948a9a086fe76885
 
 body{
     box-sizing: border-box;
@@ -31,13 +28,10 @@ body{
 
 .tituloDestaque{
     @include titulo($font-size-destaque);
-<<<<<<< HEAD
-=======
 
     @media (max-width: $tablet-hor){
         font-size: $font-size-titulo;
     }
->>>>>>> bf3ae687afc20eb0bc7edf7e948a9a086fe76885
 }//titulo header
 
 .titulo{
@@ -66,12 +60,6 @@ a{
 .container{
     width: 80%;
     margin: 0 auto;    
-    
-    @media (max-width: $mobile) {
-        width: 90%;
-        @include flex(center, center);
-        flex-wrap: wrap;       
-    }
 }
 
 
