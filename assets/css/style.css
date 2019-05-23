@@ -498,6 +498,41 @@ a {
 }
 
 .footerRedes {
+.cenario {
+  background-color: #5a287f;
+  text-align: center;
+}
+
+.imgCenario {
+  background-image: url(../img/lindsey-lamont-1309649-unsplash.jpg);
+  background-size: cover;
+  background-position-y: center;
+  height: 37.5rem;
+}
+
+@media (max-width: 768px) {
+  .imgCenario {
+    height: 25rem;
+    background-position-x: center;
+  }
+}
+
+.tituloCenario {
+  color: #fff;
+  color: #fff;
+}
+
+.descricaoCenario {
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: lighter;
+}
+
+.descricaoCenario span {
+  font-weight: 400;
+}
+
+.cardsCenario {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -533,6 +568,18 @@ a {
 @media (max-width: 600px) {
   .footerBox {
     width: 90%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 3.125rem 0;
+}
+
+@media (max-width: 768px) {
+  .cardsCenario {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 
@@ -642,5 +689,60 @@ a {
 
 .copyrightSpan {
   color: #ad94bf;
+  .cardsCenario {
+    padding-top: 2rem;
+  }
+}
+
+.card {
+  width: 30%;
+  min-height: 15.0625rem;
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 4px;
+  -webkit-box-shadow: 8px 10px 8px 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 8px 10px 8px 0 rgba(0, 0, 0, 0.16);
+  position: relative;
+}
+
+@media (max-width: 1024px) {
+  .card {
+    min-height: 18rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 50%;
+    min-height: 14.8rem;
+    margin-bottom: 1.25rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .card {
+    width: 90%;
+    min-height: 17rem;
+  }
+}
+
+.card .cardTexto p {
+  font-size: 1rem;
+  margin: 0.3125rem;
+}
+
+.card .cardTexto .cardFonte {
+  font-weight: lighter;
+  text-align: right;
+  font-size: 0.88rem;
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+.card .cardTexto h3 {
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 10px;
 }
 /*# sourceMappingURL=style.css.map */
