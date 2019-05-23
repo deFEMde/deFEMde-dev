@@ -1,6 +1,3 @@
-* {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 .noticiasBtn {
   font-family: "Noticia Text", serif;
   border: 1px solid #5a287f;
@@ -598,45 +595,9 @@ a {
   text-align: center;
 }
 
-@media (max-width: 1024px) {
-  .footerBox--conteudo {
-    width: 70%;
-  }
-  .footerRedes {
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-  }
-  .footerH3 {
-    margin: 0;
-  }
-  .footerBg {
-    padding-bottom: 135px;
-  }
-}
-
-@media (max-width: 715px) {
-  .footerBox {
-    width: 65%;
-  }
-}
-
 @media (max-width: 420px) {
   .footerCopyright {
     font-size: 0.70rem;
-  }
-}
-
-.copyrightSpan {
-  color: #ad94bf;
-  .footerBox {
-    width: 90%;
-    text-align: center;
-  }
-  .footerBg {
-    padding-bottom: 50px;
-  }
-  .footerTitulo {
-    margin: 20px 0;
   }
 }
 
