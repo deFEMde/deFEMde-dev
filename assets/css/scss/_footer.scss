@@ -1,0 +1,128 @@
+.footerBg{
+    background-image: url(../img/fotos/bg-contato.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-bottom: 238px;
+
+    @media(max-width: $tablet-hor){
+        padding-bottom: 135px;
+    }
+}
+
+.footerTitulo{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-top: 69px;
+    margin-bottom: 59px;
+    z-index: 1;
+    
+    @media(max-width: $mobile){
+        margin: 20px 0;
+    }
+}
+.spanMarcaTexto{
+    z-index: 2;
+}
+
+.footerBox--conteudo{
+    width: 50%;
+    margin: auto;    
+
+    @media(max-width: $tablet-hor){
+        text-align: center;
+        width: 72%;
+    }
+
+    @media(max-width: 720px){
+        width: 75%;
+    }
+
+    @media(max-width: $mobile){
+        width: 80%;
+    }
+}
+
+
+.footerRedes{
+    @include flex(center,space-evenly);
+}
+
+.footerBox{
+    margin: 0 auto;
+    width: 55%;
+    background-color: $branco;
+    box-shadow: 1px 2px 3px 2px rgba(0, 0, 0, 0.16);
+    padding: 40px 0;
+
+    @media(max-width: $tablet-hor){
+        width: 55%;
+    }
+
+    @media(max-width: 720px){
+        width: 65%;
+    }
+
+    @media (max-width: 600px){
+        width: 90%;
+    }
+
+    @media(max-width: $mobile){
+        width: 90%;
+        text-align: center;
+    }
+}
+
+.footerH3{
+    font-size: 1.60rem;
+    font-weight: normal;
+    margin: 0 0 34px 0;
+
+    @media(max-width: $tablet-hor){
+        margin: 0;
+    }
+
+    @media(max-width: 720px){
+        text-align: center;
+    }
+}
+
+.footerRedes{
+    padding: 0;
+    margin: 0;
+
+    @media(max-width: $tablet-hor){
+        justify-content: space-evenly;
+    }
+}
+
+.footerRedes li{
+    font-size: 40px;
+    margin-bottom: 0;
+
+    @media(max-width: $mobile){
+        font-size: 35px;
+    }
+}
+
+.footerRedes a{
+    cursor: pointer;
+}
+
+.footerCopyright{
+    padding: 4px;
+    background-color: $cor-primaria;
+    color: $cor-terciaria;
+    font-size: $font-size-footer;
+    font-weight: lighter;
+    text-align: center;
+
+    @media(max-width: $mobile){
+        font-size: 0.70rem;
+    }
+}
+
+.copyrightSpan{
+    color: $roxo-terciario;
+}
