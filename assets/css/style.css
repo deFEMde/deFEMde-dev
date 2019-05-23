@@ -87,6 +87,7 @@ a {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 @media (max-width: 420px) {
   .container {
     width: 90%;
@@ -95,8 +96,7 @@ a {
   }
 }
 
-=======
->>>>>>> 2118fab... [header] 2305 5 resolvendo reabase
+
 .nav {
   background-color: #fff;
   position: fixed;
@@ -122,6 +122,7 @@ a {
           justify-content: space-between;
 }
 
+<<<<<<< HEAD
 @media (max-width: 420px) {
   .containerNav {
     display: -webkit-box;
@@ -145,6 +146,7 @@ a {
   display: block;
 }
 
+<<<<<<< HEAD
 #logoOriginal {
   width: 11.25rem;
 }
@@ -165,6 +167,12 @@ a {
   }
 }
 
+=======
+.navMenu {
+  margin-top: 1.875rem;
+  padding: 0;
+}
+
 .navMenu li {
   display: inline-block;
   text-transform: uppercase;
@@ -179,6 +187,7 @@ a {
   text-align: right;
 }
 
+<<<<<<< HEAD
 @media (max-width: 420px) {
   .containerNav--menuHamburguer {
     display: block;
@@ -191,10 +200,18 @@ a {
 
 .menuDropdown {
   display: none;
+<<<<<<< HEAD
   margin: 0;
   padding: 0;
   -webkit-box-shadow: 0 6px 6px -2px rgba(0, 0, 0, 0.2);
           box-shadow: 0 6px 6px -2px rgba(0, 0, 0, 0.2);
+=======
+  position: absolute;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  -webkit-box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
 }
 
 .menuDropdown li {
@@ -210,15 +227,37 @@ a {
   border-top: 1px solid #e8e8e8;
 }
 
+<<<<<<< HEAD
 @media (max-width: 768px) {
   .navTablet {
     width: 85%;
+=======
+@media (max-width: 420px) {
+  .containerNav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .navMenu {
+    display: none;
+  }
+  .containerNav--menuHamburguer {
+    display: block;
   }
 }
 
 .header {
   background-color: #fff;
+<<<<<<< HEAD
   padding-top: 7.625rem;
+=======
+  padding-top: 134px;
   z-index: -2;
   position: relative;
 }
@@ -228,6 +267,7 @@ a {
   padding-top: 4rem;
 }
 
+<<<<<<< HEAD
 @media (max-width: 768px) {
   .containerDestaque {
     width: 100%;
@@ -242,11 +282,21 @@ a {
 
 @media (max-width: 1024px) {
   .marcaTextoHeader {
+=======
+@media (max-width: 1024px) {
+  .spanMarcaTexto {
+    font-weight: bold;
+  }
+  .marcaTexto {
     display: none;
   }
 }
 
 @media (max-width: 768px) {
+
+  .containerDestaque {
+    width: 100%;
+  }
   .tituloDestaque {
     font-size: 2rem;
     color: #5a287f;
@@ -346,6 +396,7 @@ a {
   margin: 0;
 }
 
+<<<<<<< HEAD
 @media (max-width: 768px) {
   .noticiasTitulo--div {
     text-align: center;
@@ -443,6 +494,7 @@ a {
   }
 }
 
+
 .footerBg {
   background-image: url(../img/fotos/bg-contato.png);
   background-repeat: no-repeat;
@@ -451,11 +503,13 @@ a {
   padding-bottom: 238px;
 }
 
+<<<<<<< HEAD
 @media (max-width: 1024px) {
   .footerBg {
     padding-bottom: 135px;
   }
 }
+
 
 .footerTitulo {
   display: inline-block;
@@ -466,11 +520,13 @@ a {
   z-index: 1;
 }
 
+<<<<<<< HEAD
 @media (max-width: 420px) {
   .footerTitulo {
     margin: 20px 0;
   }
 }
+
 
 .spanMarcaTexto {
   z-index: 2;
@@ -481,6 +537,7 @@ a {
   margin: auto;
 }
 
+<<<<<<< HEAD
 @media (max-width: 1024px) {
   .footerBox--conteudo {
     text-align: center;
@@ -536,6 +593,7 @@ a {
 }
 
 .cardsCenario {
+.footerRedes {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -556,6 +614,7 @@ a {
   padding: 40px 0;
 }
 
+<<<<<<< HEAD
 @media (max-width: 1024px) {
   .footerBox {
     width: 55%;
@@ -593,12 +652,15 @@ a {
   }
 }
 
+=======
+>>>>>>> cb01ab9... [2305] atualização header para develop
 .footerH3 {
   font-size: 1.60rem;
   font-weight: normal;
   margin: 0 0 34px 0;
 }
 
+<<<<<<< HEAD
 @media (max-width: 1024px) {
   .footerH3 {
     margin: 0;
@@ -611,11 +673,14 @@ a {
   }
 }
 
+=======
+>>>>>>> cb01ab9... [2305] atualização header para develop
 .footerRedes {
   padding: 0;
   margin: 0;
 }
 
+<<<<<<< HEAD
 @media (max-width: 1024px) {
   .footerRedes {
     -webkit-box-pack: space-evenly;
@@ -624,17 +689,22 @@ a {
   }
 }
 
+=======
+>>>>>>> cb01ab9... [2305] atualização header para develop
 .footerRedes li {
   font-size: 40px;
   margin-bottom: 0;
 }
 
+<<<<<<< HEAD
 @media (max-width: 420px) {
   .footerRedes li {
     font-size: 35px;
   }
 }
 
+=======
+>>>>>>> cb01ab9... [2305] atualização header para develop
 .footerRedes a {
   cursor: pointer;
 }
@@ -674,6 +744,7 @@ a {
   .footerCopyright {
     font-size: 0.70rem;
   }
+<<<<<<< HEAD
 }
 
 .copyrightSpan {
@@ -689,6 +760,7 @@ a {
     margin: 20px 0;
   }
 }
+<<<<<<< HEAD
 
 .copyrightSpan {
   color: #ad94bf;
@@ -748,4 +820,5 @@ a {
   margin: 0;
   margin-bottom: 10px;
 }
+
 /*# sourceMappingURL=style.css.map */

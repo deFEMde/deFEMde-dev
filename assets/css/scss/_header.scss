@@ -27,6 +27,17 @@
 
 .tituloDestaque {
 @media (max-width: $tablet-ver){
+<<<<<<< HEAD
     @include tituloMobile($font-size-titulo);
 }
 }
+=======
+    .containerDestaque {
+        width: 100%;
+    }
+
+    .tituloDestaque {
+        @include tituloMobile($font-size-titulo);
+    }
+}
+>>>>>>> cb01ab9... [2305] atualização header para develop
