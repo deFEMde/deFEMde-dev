@@ -86,6 +86,7 @@ a {
   margin: 0 auto;
 }
 
+<<<<<<< HEAD
 @media (max-width: 420px) {
   .container {
     width: 90%;
@@ -94,6 +95,8 @@ a {
   }
 }
 
+=======
+>>>>>>> 2118fab... [header] 2305 5 resolvendo reabase
 .nav {
   background-color: #fff;
   position: fixed;
