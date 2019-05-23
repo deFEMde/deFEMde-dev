@@ -59,7 +59,13 @@ a{
 
 .container{
     width: 80%;
-    margin: 0 auto;    
+    margin: 0 auto;
+    
+    
+    @media (max-width: $mobile) {
+        width: 90%;
+        flex-wrap: wrap;       
+    }
 }
 
 
