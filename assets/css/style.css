@@ -393,28 +393,6 @@ a {
   text-align: center;
 }
 
-@media (max-width: 1024px) {
-  .footerBox--conteudo {
-    width: 70%;
-  }
-  .footerRedes {
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-  }
-  .footerH3 {
-    margin: 0;
-  }
-  .footerBg {
-    padding-bottom: 135px;
-  }
-}
-
-@media (max-width: 715px) {
-  .footerBox {
-    width: 65%;
-  }
-}
-
 @media (max-width: 420px) {
   .footerCopyright {
     font-size: 0.70rem;
@@ -429,5 +407,9 @@ a {
   .footerTitulo {
     margin: 20px 0;
   }
+}
+
+.copyrightSpan {
+  color: #ad94bf;
 }
 /*# sourceMappingURL=style.css.map */
