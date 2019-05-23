@@ -8,25 +8,25 @@
 .containerDestaque {
     width: 70%;
     padding-top: 4rem;
-    //incluir margin-bottom   
+    @media (max-width: $tablet-ver){
+        width: 100%;
+    }
 }
 
-@media (max-width: $tablet-hor) {    
-    .spanMarcaTexto {
-        font-weight: bold;
+.spanMarcaTextoHeader {
+    @media (max-width: $tablet-hor) {
+    font-weight: bold;
     }
-    
-    .marcaTexto {
+}
+
+.marcaTextoHeader {
+    @media (max-width: $tablet-hor) {
         display: none;
     }
 }
 
+.tituloDestaque {
 @media (max-width: $tablet-ver){
-    .containerDestaque {
-        width: 100%;
-    }
-
-    .tituloDestaque {
-        @include tituloMobile($font-size-titulo);
-    }
+    @include tituloMobile($font-size-titulo);
+}
 }
