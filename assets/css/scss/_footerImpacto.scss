@@ -1,0 +1,110 @@
+.footerBg{
+    background-image: url(../img/bg-contato.jpg); //conferir se é o arquivo correto
+    background-size: contain;
+    position: relative;
+    text-align: center;
+    
+
+    .footerTitulo{
+        display: inline-block;
+        width: 100%;
+        z-index: 1;
+        
+        @media(max-width: $mobile){
+            margin-top: 2rem;
+        }
+
+        .spanMarcaTexto{
+            z-index: 2;
+        }
+    }
+
+    .footerBox{
+        margin: 0 auto;
+        margin-top: 3.125rem;
+        border-radius: 4px;
+        width: 55%;
+        background-color: $branco;
+        box-shadow: 2px 4px 6px 1px rgba(0, 0, 0, 0.16);
+        padding: 4rem 0;
+    
+        @media(max-width: $tablet-hor){
+            width: 55%;
+        }
+    
+        @media(max-width: 720px){
+            width: 65%;
+        }
+    
+        @media (max-width: 600px){
+            width: 90%;
+        }
+    
+        @media(max-width: $mobile){
+            width: 90%;
+        }
+        
+        .footerBox--conteudo{
+            width: 60%;
+            margin: auto;    
+
+            @media(max-width: $tablet-hor){
+                width: 72%;
+            }
+
+            @media(max-width: 720px){
+                width: 75%;
+            }
+
+            @media(max-width: $mobile){
+                width: 80%;
+            }
+
+            .footerH3{
+                font-size: 1.6rem;
+                font-weight: normal;
+                margin-top: 0;
+            
+                @media(max-width: $tablet-hor){
+                    margin: 0;
+                }
+            }
+
+            .footerRedes{
+                @include flex(center,space-evenly);
+                padding: 0;
+                margin: 0;
+
+                li{
+                    font-size: $font-size-destaque;
+                
+                    @media(max-width: $mobile){
+                        font-size: 2.1875rem;
+                    }
+
+                    a{
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.footerCopyright{
+    padding: 0.25rem;
+    background-color: $cor-primaria;
+    color: $cor-terciaria;
+    font-size: $font-size-footer;
+    font-weight: lighter;
+    text-align: center;
+
+    @media(max-width: $mobile){
+        font-size: 0.7rem;
+    }
+
+    .copyrightSpan{
+        color: $roxo-terciario;
+    }
+}
+
