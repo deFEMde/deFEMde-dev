@@ -1,4 +1,5 @@
 .noticiaBtnMae .noticiasBtn {
+.noticiasBtn {
   font-family: "Noticia Text", serif;
   border: 1px solid #5a287f;
   border-radius: 4px;
@@ -829,6 +830,11 @@ li :hover {
 }
 
 .footerCopyright .copyrightSpan {
+    font-size: 0.70rem;
+  }
+}
+
+.copyrightSpan {
   color: #ad94bf;
 }
 /*# sourceMappingURL=style.css.map */
