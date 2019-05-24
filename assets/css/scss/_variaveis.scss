@@ -16,7 +16,8 @@ $cor-terciaria: $branco; //footer
 $cor-link: $roxo-secundario; //somente links
 $bg-primario: $branco; //fundo dos botões e bg da página
 $bg-secundario: $roxo-primario; //usado somente no footer
-$sublinhado: $amarelo; //
+$sublinhado: $amarelo; // 
+$sublinhado-roxo: $roxo-primario; // 
 $borda-card: $roxo-terciario; //borda dos cards
 $icone: $roxo-secundario; 
 $divisoria: $cinza-claro; //dividir os cards das seções -- o que fazemos --;
@@ -27,6 +28,7 @@ $font-size-padrao: 16px;
 
 $font-size-subtitulo: 1.25rem;//titulo card
 $font-size-titulo: 2rem; //titulos
+$font-size-secundario: 1.75rem; //titulos
 $font-size-destaque: 2.5rem; //destaque header
 $font-size-texto: 1rem; //botao, link, menu nav, card
 $font-size-footer: 0.88rem; //footer

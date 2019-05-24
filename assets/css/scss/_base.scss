@@ -1,11 +1,14 @@
 // o que vai no body
 // classes que serão repetidas tipo container
+<<<<<<< HEAD
 
 
 * {
     box-sizing: border-box;
 }
 
+=======
+>>>>>>> 53cc789... [oQueFazemos]index_falta_responsividade_ainda
 body{
     box-sizing: border-box;
     margin: 0;
@@ -40,6 +43,17 @@ body{
     }
 }
 
+.marcaTexto--roxo{
+    width: 100%;
+    display: inline-block;
+    background-color: $sublinhado-roxo;
+    opacity: 0.15;
+    height: 0.75rem;
+    position: absolute;
+    z-index: 1;
+    bottom: -0.25rem;
+}
+
 .tituloDestaque{
     @include titulo($font-size-destaque);
 
@@ -51,6 +65,10 @@ body{
 .titulo{
     @include titulo($font-size-titulo)
 }//demais titulos, excetos os cards
+
+.tituloSecundario{
+    @include titulo($font-size-secundario)
+}
 
 .tituloCard{
     @include titulo($font-size-subtitulo)
