@@ -40,11 +40,11 @@ body{
     }
 }
 
-.marcaTextoRoxo--roxo{
+.marcaTexto--roxo{
     width: 100%;
     display: inline-block;
     background-color: $sublinhado-roxo;
-    opacity: 10%;
+    opacity: 0.15;
     height: 0.75rem;
     position: absolute;
     z-index: -1;

@@ -15,6 +15,7 @@
     position: relative;
     transition: 1s transform ease;
     transform: scale(1);
+    box-shadow: 1.5px 2px 2px 1.5px rgba(0, 0, 0, 0.16);
 }
 
 %botao:focus{
@@ -23,6 +24,7 @@
 
 %botao:active{
     transform: scale(0.9);
+    box-shadow: 0.8px 1px 1px 0.8px rgba(0, 0, 0, 0.16);
 }
 
 
