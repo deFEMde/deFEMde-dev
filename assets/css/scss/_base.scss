@@ -40,6 +40,17 @@ body{
     }
 }
 
+.marcaTextoRoxo--roxo{
+    width: 100%;
+    display: inline-block;
+    background-color: $sublinhado-roxo;
+    opacity: 10%;
+    height: 0.75rem;
+    position: absolute;
+    z-index: -1;
+    bottom: -0.25rem;
+}
+
 .tituloDestaque{
     @include titulo($font-size-destaque);
 

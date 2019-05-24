@@ -23,6 +23,7 @@
 
 .titulo{
     margin: 2.6875rem 2.875rem 2.75rem 2.875rem;
+    font-weight: bold;
 }
 
 .conteudo{
@@ -66,5 +67,3 @@
     @include flex(center, center);
     flex-direction: column;
 }
-
-
