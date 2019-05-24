@@ -97,56 +97,6 @@
     <!--fim  quemSomos May-->
 
     <!--inicio oQueFazemos Ingrid-->
-    <section id="oQueFazemos">
-        <div class="containerSection">
-            <img class="containerImagem" src="assets/img/fotos/manifestantes-oQueFazemos.png" alt="Foto em preto e branco de mulheres em luta fazendo uma corrente humana" title="Foto em preto e branco de mulheres em luta fazendo uma corrente humana">
-            <div class="containerDiv--card">
-                <h2 class="titulo">
-                    <span class="spanMarcaTexto">
-                        <span class="marcaTexto"></span>
-                        O que fazemos?
-                    </span>
-                </h2>
-                <p class="conteudo">Nossa atuação inclui as atividades/ações de advocacy; divulgação de informações sobre direitos; pesquisa e elaboração de teses jurídico-feministas; ações educativas, de capacitação e de comunicação promotoras de igualdade de gênero.</p>
-                <button class="botao" id="scroll-next"><a>Saiba mais</a></button>
-            </div>
-        </div>
-        <!--Divisão de Conteúdo-->
-        <div class="container">
-            <div class="containerDiv--projetos" id="advocacy">
-                <h2 class="tituloSecundario"><span class="spanMarcaTexto">
-                    <span class="marcaTexto--roxo"></span>
-                    Advocacy
-                    </span>
-                </h2>
-                <p class="conteudoSecundario" id="paragrafoAdvocacy">Nossa atuação inclui as atividades/ações de advocacy; divulgação de informações sobre direitos; pesquisa e elaboração de teses jurídico-feministas; ações educativas, de capacitação e de comunicação promotoras de igualdade de gênero.</p>
-            </div>
-            <div class="containerDiv--projetos" id="direitos">
-                <h2 class="tituloSecundario"><span class="spanMarcaTexto">
-                    <span class="marcaTexto--roxo"></span>
-                    Informando sobre direitos
-                    </span>
-                </h2>
-                <p class="conteudoSecundario">Elaboramos e realizamos a difusão de informações sobre direitos, em linguagem acessível, voltada especialmente a pessoas em situação de vulnerabilidade, violência ou desigualdade de gênero e com enfoque em aspectos práticos.</p>
-            </div>
-            <div class="containerDiv--projetos" id="pesquisa">
-                <h2 class="tituloSecundario"><span class="spanMarcaTexto">
-                    <span class="marcaTexto--roxo"></span>
-                    Pesquisa e elaboração de teses jurídico-feministas
-                    </span>
-                </h2>
-                <p class="conteudoSecundario">Desenvolvemos teses jurídicas de defesa dos direitos das mulheres e da igualdade de gênero e elaboramos notas técnicas.</p>
-            </div>
-            <div class="containerDiv--projetos" id="acoes">
-                <h2 class="tituloSecundario"><span class="spanMarcaTexto">
-                    <span class="marcaTexto--roxo"></span>
-                    Ações educativas 
-                    </span>
-                </h2>
-                <p class="conteudoSecundario">Realizamos oficinas e capacitações sobre relações de gênero e direitos e ações de comunicação com o mesmo enfoque temático.</p>
-            </div>
-        </div>
-    </section>
     <!--fim oQueFazemos Ingrid-->
 
     <!--inicio impacto Gaby-->
@@ -228,7 +178,6 @@
         </div>
     </section>
     <!--fim noticias Talita-->
-   
     <!--inicio footer Vic-->
     <section class="footer" id="footer">
         <div class="footerBg">
@@ -278,8 +227,8 @@
         </footer>
     </section>
     <!--fim footer Vic-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script src="./assets/js/script.js"></script>
-    <script src="assets/js/oQueFazemos.js"></script>
 </body>
 </html>
