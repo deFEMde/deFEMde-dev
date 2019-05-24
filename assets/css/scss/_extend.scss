@@ -12,6 +12,17 @@
     cursor: pointer;
     font-size: $font-size-texto;
     color: $cor-primaria;
+    position: relative;
+    transition: 1s transform ease;
+    transform: scale(1);
+}
+
+%botao:focus{
+    outline: none;
+}
+
+%botao:active{
+    transform: scale(0.90);
 }
 
 
