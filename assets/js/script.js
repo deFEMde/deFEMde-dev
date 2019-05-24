@@ -11,6 +11,53 @@ $(document).ready(function(){
             $('#logoOriginal').addClass('ativo');
             $('.nav').removeClass('navSombra');
         }
+
+        // var width = $(window).width();
+        // if(width <= '420px'){
+        //     console.log("oi")
+        //     if($(this).scrollTop()>360){
+        //         $('.botaoTopo').fadeIn();
+        //     }
+        //     else {
+        //         $('.botaoTopo').fadeOut();
+        //         $('.botaoTopo').hide();
+        //     }
+        // }
+
+        // else {
+        //     if($(this).scrollTop()>360 && $(this).scrollTop()<4850){
+        //         $('.botaoTopo').fadeIn();
+        //     }
+        //     else {
+        //         $('.botaoTopo').fadeOut();
+        //         $('.botaoTopo').hide();
+        //     }
+        // } 
+    });
+
+    //botão voltar ao topo
+    $(window).scroll(function(){
+        var width = $(window).width();
+        if(width <= '420px'){
+            console.log("oi")
+            if($(this).scrollTop()>360){
+                $('.botaoTopo').fadeIn();
+            }
+            else {
+                $('.botaoTopo').fadeOut();
+                $('.botaoTopo').hide();
+            }
+        }
+
+        else {
+            if($(this).scrollTop()>360 && $(this).scrollTop()<4850){
+                $('.botaoTopo').fadeIn();
+            }
+            else {
+                $('.botaoTopo').fadeOut();
+                $('.botaoTopo').hide();
+            }
+        }  
     });
 
     // scroll suave para seções

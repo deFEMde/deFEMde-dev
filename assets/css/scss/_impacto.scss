@@ -3,15 +3,85 @@
     width: 100%;
     height: 28.5rem;
     object-fit: cover;
+    @media (max-width:$tablet-hor){
+        width: 100%;
+        height: 28.5rem;
+        object-fit: cover;
+    }
+
+    @media (max-width:$tablet-ver){
+        width: 100%;
+        height: 28.5rem;
+        object-fit: cover;
+    }
+
+    @media (max-width:$mobile){
+        width: 100%;
+        height: 28.5rem;
+        object-fit: cover;
+    }
+}
+
+.containerArticle{
+    @include flex(center,space-between);
+    flex-direction: row;
+    margin: 0 auto;
+    @media(max-width:1024px){
+        @include flex(center,center);
+        flex-direction: column;
+        width:80%;
+
+        .cardMainImpacto{
+            width: 80%;
+            margin-bottom: 10%;
+        }
+    }
+
+    @media(max-width:1024px){
+        width: 90%;
+    }
 }
 
 // Inicio dos cards//
+.containerConteudo{
+    font-size: 1.25rem;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: auto;
+    position: absolute;
+    bottom: 24px;
+
+
+    @media ( max-width:$tablet-hor){
+                font-size: 1.25rem;
+        line-height: 1.5;
+        margin-bottom: auto;
+        position: absolute;
+        bottom: 1.25rem;
+    } 
+
+    @media (max-width:$tablet-ver){
+    font-size: 1.25rem;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: auto;
+    position: absolute;
+    bottom: 24px;
+    } 
+
+    @media ($mobile){
+    font-size: 1.25rem;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: auto;
+    position: absolute;
+    bottom: 24px;
+    }     
+}
 .containerTitulo{
     font-family: $font-secundaria;
     @include titulo($font-size-subtitulo);
-    text-align: center;
-    margin: 4%;
-    width: 35%;
+    margin: 4% auto;
 }
 
 .container--flex{
@@ -20,9 +90,9 @@
     margin: 0 auto;
 }
 
-.cardMain{ 
+.cardMainImpacto{ 
     width: 30%;
-    height: 400px;
+    height: 460px;
     padding: -0.2rem 1.8rem 5rem 1.8rem;
     border-radius: 4px $roxo-primario;
     box-shadow: 0 2px 3px 0 $cinza-claro;
@@ -32,32 +102,35 @@
     padding: 10px;
     box-sizing: border-box;
     justify-content: space-between;
+    text-align: center;
+    position: relative;
+
+    img{
+        margin-top: 3%;
+        max-width: 90%;
+        height: 260px;
+    }
 }
-.cardMain:hover{
+.cardMainImpacto:hover{
     transform: scale(1.02);
 }
 
-.cardMain > p{
-    font-size: 1.25rem;
-    line-height: 1.5;
-}
-.cardMain > img{
-    margin-top: 5%;
-    max-width: 90%;
-    height: 285px;
-}
+// .imgCards > img{
+//     margin-top: 3%;
+//     max-width: 90%;
+//     height: 260px;
+// }
 
 .bntCards{
     @extend %botao;
-    margin: 1.5rem 2.6875rem;
 }
 //final dos cards//
 
 // Sessão Outras Notícias//
 .containerDiv--projetos{
-    width: 80%;
+    width: 55%;
     margin: 0 auto;
-    margin-top: 10%;
+    margin-top: 2%;
     @include flex(left, left);
     flex-direction: column;
     text-align: center;
@@ -70,6 +143,15 @@
     transition: 0.5s transform ease;
     transform: scale(1);
     cursor: pointer;
+    @media(max-width:1024px){
+        width: 90%;
+        text-align: center;
+        ul{
+            li{
+            padding-left: 0;
+        }
+
+    }   
 }
 
 li{
@@ -80,18 +162,5 @@ li{
     font-weight: bold;
     color: $cor-secundaria;
 }
-
-//Footer//
-.footerCopyright{
-    padding: 4px;
-    background-color: $cor-primaria;
-    color: $cor-terciaria;
-    font-size: $font-size-footer;
-    font-weight: lighter;
-    text-align: center;
 }
 
-.copyrightSpan{
-    color: $roxo-terciario;
-}
-// Final footer//

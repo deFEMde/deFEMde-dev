@@ -5,14 +5,12 @@
 
     // 1024px
     @media(max-width:$tablet-hor){
-        max-width: 64rem;
-        width: 100%;
+        flex-direction: column;
     }
 
     // 768px
-    @media(max-width:$tablet-ver){
-        max-width: 48rem;
-        width: 100%;
+    @media (max-width: $tablet-ver){
+        flex-direction: column;
     }
 
     // 420px
@@ -23,27 +21,27 @@
 }
 
 .containerImagem{
-    max-width: 87.5rem;;
-    width: 100%;
     height: 31.5rem;
     object-fit: cover;
     position: absolute;
-
+    overflow: hidden;
+    width: 100%;
+    
     // 1024px
     @media(max-width:$tablet-hor){
-        max-width: 64rem;
     }
 
     // 768px
     @media(max-width:$tablet-ver){
-        max-width: 48rem;
     }
 
     // 420px
     @media(max-width:$mobile){
-        max-width: 26.25rem;
+        @include flex(center, center);
+        flex-direction: column;
     }
 }
+
 
 .containerDiv--card{
     width: 34.625rem;
@@ -55,16 +53,18 @@
 
     // 1024px
     @media(max-width:$tablet-hor){
-        width: 25.3257rem;
-        height: 17.7371rem;
+        padding: 1rem;
         margin: 3.4375rem 8.0625rem 3.8125rem 32.7771rem;
     }
 
     // 768px
     @media(max-width:$tablet-ver){
-        width: 25.968rem;
-        height: 18.1875rem;
-        margin: 3.4375rem 8.0625rem 3.8125rem 24.179rem; 
+        margin: 3.4375rem 8.0625rem 3.8125rem 24.179rem;
+        padding: 1rem;
+        text-align: left;
+        width: 60%;
+        height: 60%;   
+        
     }
 
     // 420px
@@ -75,22 +75,25 @@
     }   
 }
 
-.titulo{
-    margin: 2.6875rem 2.875rem 2.75rem 2.875rem;
+.titulooQueFazemos{
+    margin: 2.6875rem 2.875rem 2.75rem 2.875rem !important;
     font-weight: bold;
 
      // 1024px
      @media(max-width:$tablet-hor){
-        margin: 1.9657rem 2.875rem 1rem 2.875rem;
         @include titulo($font-size-secundario);
         font-weight: bold;
+    
+        .spanMarcaTexto{
+            margin: 4% auto;
+        }
     }
 
     // 768px
     @media(max-width:$tablet-ver){
-        margin: 2rem 2.875rem 1rem 2.875rem;
         @include titulo($font-size-secundario);
         font-weight: bold;
+        margin: 0 2.875rem;
     }
 
     // 420px
@@ -111,7 +114,7 @@
     // 1024px
     @media(max-width:$tablet-hor){
         height: 6.9485rem;
-        width: 21.12rem;
+        width:90%;
         font-size: $font-size-texto;
         font-weight: lighter;
     }
@@ -138,19 +141,19 @@
     margin: 1.5rem 2.6875rem;
 }
 
-.container{
+.containerOqueFazemos{
     flex-direction: column;
     margin-top: 6rem;
 
     // 768px
     @media(max-width:$tablet-ver){
-        width: 60%;
+        width: 100%;
         margin-top: 6rem;
     }
 
     // 420px
     @media(max-width:$mobile){
-        width: 32.8125%;
+        width: 100%;
         margin-top: 6rem;
     }
 }
@@ -228,8 +231,8 @@
 
 .tituloSecundario{
     margin-left: 1.9375rem;
-    margin-top:auto;
-    margin-bottom: 0.625rem;
+    margin-top:1rem;
+    margin-bottom: 1rem;
     font-weight: bold;
     cursor: pointer;
 
@@ -237,6 +240,7 @@
     @media(max-width:$tablet-hor){
         @include titulo($font-size-subtitulo);
         font-weight: bold;
+        margin: 1.9375rem
     }
 
     // 768px

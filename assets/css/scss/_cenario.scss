@@ -6,7 +6,7 @@
         background-image: url(../img/eye-for-ebony-415494-unsplash.jpg);
         background-position-y: -160px;
         background-repeat: no-repeat;
-        height: 500px;
+        height: 31.25rem;
         filter: grayscale(100%);
         background-size: cover; 
     
@@ -20,7 +20,7 @@
         color: $cor-terciaria;
 
         .marcaTextoCenario {
-            background-color: $roxo-terciario;
+            background-color: $sublinhado;
             opacity: .5; //comparar com da ingrid
             z-index: 1;
         }
@@ -95,6 +95,7 @@
                     position: absolute;
                     bottom: 1rem;
                     right: 1rem;
+                    font-style: italic;
                 }
             }
         }
