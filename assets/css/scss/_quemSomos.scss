@@ -4,10 +4,9 @@
 
 }
 
+
 .bgMain > img{
-    // width: 100%;
     @media (max-width: $tablet-hor){
-        object-fit: cover;
     }
 }
 .span--bold{
