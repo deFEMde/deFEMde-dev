@@ -4,92 +4,90 @@
     top: 0;
     width: 100%;
     z-index: 99;
+
+    .navContainer {
+        @include flex(flex-start, space-between);
+    
+        @media (max-width: $mobile){
+            @include flex(center, space-between);
+        }
+
+        .navLogo {
+            display: none;
+            margin: 0.625rem 0;
+        }
+        
+        .navLogo.ativo {
+            display: block;
+        }
+        
+        #logoOriginal {
+            width: 11.25rem;
+        }
+        
+        #logoReduzida {
+            width: 7.5rem;
+            padding-top: 0.3125rem;
+        }
+
+        .navMenu {
+            margin-top: 1.375rem;
+            padding: 0;
+            @media (max-width: $mobile){   
+                display: none;
+            }
+        
+            li {
+                display: inline-block;
+                text-transform: uppercase;
+            }
+        
+            li + li {
+                margin-left: 1rem;
+            }
+        }
+
+        .navContainer--menuHamburguer {
+            display: none;
+            text-align: right;
+            @media (max-width: $mobile){
+              display: block;
+            }
+
+            .menuHamburguer {
+                font-size: $font-size-titulo;
+            }
+        }
+    }
+
+    .menuDropdown {
+        display: none;
+        margin: 0;
+        padding: 0;
+        box-shadow: 0 6px 6px -2px rgba(0, 0, 0, 0.2);
+
+        li {
+            border: none;
+            text-align: right; 
+            text-transform: uppercase;
+            font-size: $font-size-subtitulo;
+            padding: 0.5rem 1.5rem 0.5rem 2.5rem;
+            background-color: $bg-primario;
+        }
+
+        li + li {
+            border-top: 1px solid $divisoria;
+        }
+    }
+
+    .navTablet {
+        @media (max-width: $tablet-ver){
+            width: 85%;
+        }
+    }
 }
 
 .navSombra {
     box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
-}
-
-.containerNav {
-    @include flex(flex-start, space-between);
-
-    @media (max-width: $mobile){
-        @include flex(center, space-between);
-    }
-}
-
-.navLogo {
-    display: none;
-    margin: 0.625rem 0;
-}
-
-.navLogo.ativo {
-    display: block;
-}
-
-#logoOriginal {
-    width: 11.25rem;
-}
-
-#logoReduzida {
-    width: 7.5rem;
-    padding-top: 0.3125rem;
-}
-
-.navMenu {
-    margin-top: 1.375rem;
-    padding: 0;
-    @media (max-width: $mobile){   
-        display: none;
-    }
-}
-
-.navMenu li {
-    display: inline-block;
-    text-transform: uppercase;
-}
-
-.navMenu li + li {
-    margin-left: 1rem;
-}
-
-//inicio menu hamburguer
-.containerNav--menuHamburguer {
-    display: none;
-    text-align: right;
-    @media (max-width: $mobile){
-      display: block;
-    }
-}
-
-
-.menuHamburguer {
-    font-size: $font-size-titulo;
-}
-
-.menuDropdown {
-    display: none;
-    margin: 0;
-    padding: 0;
-    box-shadow: 0 6px 6px -2px rgba(0, 0, 0, 0.2);
-}
-
-.menuDropdown li {
-    border: none;
-    text-align: right; 
-    text-transform: uppercase;
-    font-size: $font-size-subtitulo;
-    padding: 0.5rem 1.5rem 0.5rem 2.5rem;
-    background-color: $bg-primario;
-}
-
-.menuDropdown li + li {
-    border-top: 1px solid $divisoria;
-}
-
-.navTablet {
-    @media (max-width: $tablet-ver){
-        width: 85%;
-    }
 }
 

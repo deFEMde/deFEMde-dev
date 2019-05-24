@@ -13,17 +13,17 @@
 </head>
 
 <body>
-    <!--inicio header Nina-->
+    <!--inicio nav Nina-->
     <nav class="nav">
         <div class="container navTablet">
-            <div class="containerNav">
-                <div class="containerNav--logo">
+            <div class="navContainer">
+                <div class="navContainer--logo">
                     <a href="#header" class="navMenu--link">
-                        <img class="navLogo ativo" id="logoOriginal" src="./assets/img/logo/RFJUR3.png" alt="Logo Rede Feminista de Juristas">
-                        <img class="navLogo" id="logoReduzida" src="./assets/img/logo/RFJUR3red.png" alt="Logo Rede Feminista de Juristas Mobile">
+                        <img class="navLogo ativo" id="logoOriginal" src="./assets/img/logo.png" alt="Logo Rede Feminista de Juristas">
+                        <img class="navLogo" id="logoReduzida" src="./assets/img/logo-reduzida.png" alt="Logo Rede Feminista de Juristas Mobile">
                     </a>
                 </div>
-                <div class="containerNav--menu">
+                <div class="navContainer--menu">
                     <ul class="navMenu">
                         <li><a class="navMenu--link" href="#quemSomos">Sobre nós</a></li>
                         <li><a class="navMenu--link" href="#oQueFazemos">O que fazemos?</a></li>
@@ -31,7 +31,7 @@
                         <li><a class="navMenu--link" href="#footer">Contato</a></li>
                     </ul>
                 </div>
-                <div class="containerNav--menuHamburguer">
+                <div class="navContainer--menuHamburguer">
                     <i class="fas fa-bars menuHamburguer"></i>
                 </div>
             </div>
@@ -43,19 +43,22 @@
             <li><a class="menuDropdown--link" href="#footer">Contato</a></li>
         </ul>
     </nav>
+    <!--fim nav Nina-->
+
+    <!--inicio header Nina-->
     <header id="header" class="header">
         <div class="container">
             <div class="containerDestaque">
-                <h1 class="tituloDestaque">Somos uma rede composta por juristas de diversas áreas do direito, que atua desde 2016 na <span class="spanMarcaTexto spanMarcaTextoHeader"><span class="marcaTexto marcaTextoHeader"></span>promoção da igualdade de gênero</span> no Brasil a partir de uma perspectiva interdisciplinar, transinclusiva e interseccional.</h1>
+                <h1 class="tituloDestaque">Somos uma rede composta por juristas de diversas áreas do direito, que atua desde 2016 na <span class="spanMarcaTexto spanMarcaTextoBold"><span class="marcaTexto marcaTextoBold"></span>promoção da igualdade de gênero</span> no Brasil a partir de uma perspectiva interdisciplinar, transinclusiva e interseccional.</h1>
             </div>
         </div>
     </header>
     <!--fim header Nina-->
 
     <!--inicio quemSomos May-->
-    <main>
+    <main id="quemSomos">
         <div class="bgMain">
-            <img src="./assets/img/fotos/grafismos-quemSomos.png" alt="">
+            <img src="./assets/img/grafismos-quemSomos.png" alt="">
         </div>
         <div class="container container--flex">
             <article class="cardMain">
@@ -101,21 +104,19 @@
 
     <!--inicio cenario Nina-->
         <section id="cenario" class="cenario">
-            <div class="imgCenario">
-                <!-- <img src="./assets/img/lindsey-lamont-1309649-unsplash.jpg" alt="The Future is Female"> -->
-            </div>
-            <div class="container">
-                <h2 class="titulo tituloCenario">
+            <div class="cenarioImg"></div>
+            <div class="container cenarioContainer">
+                <h2 class="titulo cenarioTitulo">
                     <span class="spanMarcaTexto">
-                        <span class="marcaTexto"></span>
+                        <span class="marcaTexto marcaTextoCenario"></span>
                         Cenário atual
                     </span>
                 </h2>
-                <div class="descricaoCenario">
+                <div class="cenarioDescricao">
                     <p>A <span>Rede Feminista de Juristas</span> foi criada para ajudar a construir um país livre de violências e discriminações, por meio do enfrentamento das desigualdades hoje existentes.</p>
-                    <p>Você sabia que:</p>
+                    <p>Você sabia que...</p>
                 </div>
-                <div class='cardsCenario'>
+                <div class='cenarioCards'>
                     <article class="card">
                         <div class="cardTexto">
                             <h3>Política</h3>
@@ -144,58 +145,41 @@
     <!--fim cenario Nina-->
 
     <!--inicio noticias Talita-->
-    <section id="noticias">
-
-        <div class="container containerNoticias">
-
-            <div class="noticiasTitulo--div">
-
-                <h2 class="tituloNoticia">Acompanhe 
+    <section id="noticias" class="noticias">
+        <div class="container">
+            <div class="noticiasTitulo">
+                <h2 class="titulo">Acompanhe 
                     <span class="spanMarcaTexto">
                         <span class="marcaTexto"></span>nossas ações</span> na mídia
                 </h2>
-
             </div>
-
-
             <div class="noticiasDivMae">
-
-
                 <div class="noticiasNoticia1">
                     <a href="https://revistamarieclaire.globo.com/Mulheres-do-Mundo/noticia/2019/02/replica-karina-kufa-e-ela-nao-e-uma-mulher.html" target="_blank">
-
                         <div class="noticiaChamada">
-                            <h3 class="Noticia1--titulo">deFEMde comenta entrevista de Karina Kufa, advogada do
+                            <h3 class="noticiaTitulo">deFEMde comenta entrevista de Karina Kufa, advogada do
                                 presidente Jair Bolsonaro</h3>
-                            <h4 class="Noticia1--subtitulo">Revista Marie Claire</h4>
+                            <h4 class="noticiaSubtitulo">Revista Marie Claire</h4>
                         </div>
                     </a>
                 </div>
-
                 <div class="noticiasNoticia2">
                     <a href="http://www.justificando.com/2018/03/08/rede-feminista-de-juristas-lanca-campanha-pra-nao-rimar-amor-e-dor/" target="_blank">
                         <div class="noticiaChamada">
-
-                            <h3 class="Noticia2--titulo">Rede Feminista de Juristas lança campanha ‘Pra Não Rimar Amor e
-                                Dor’</h3>
-                            <h4 class="Noticia2--subtitulo">Portal Justificando</h4>
+                            <h3 class="noticiaTitulo">Rede Feminista de Juristas lança campanha ‘Pra Não Rimar Amor e Dor’</h3>
+                            <h4 class="noticiaSubtitulo">Portal Justificando</h4>
                         </div>
                     </a>
                 </div>
-
             </div>
-
-            <div class="noticiaBtn--div" >
+            <div class="noticiaBtnMae" >
                 <button class="noticiasBtn"><a href="noticias.html">Veja mais</a></button>
             </div>
-
         </div>
     </section>
-
-
     <!--fim noticias Talita-->
 
-    <!--inico footer Vic-->
+    <!--inicio footer Vic-->
     <section class="footer" id="footer">
         <div class="footerBg">
             <div class="container">
@@ -203,34 +187,49 @@
                     <h2 class="titulo footerTitulo">
                         <span class="spanMarcaTexto"><span class="marcaTexto"></span>Contato</span></h2>
                 </div>
-
                 <div class="footerBox">
                     <div class="footerBox--conteudo">
                         <h3 class="footerH3">Gostou do nosso trabalho?</h3>
-                        <p class="footerParagrafo">Entre em contato conosco através das nossas redes sociais ou por e-mail. Apoie a causa!</p>
-
+                        <p class="footerParagrafo">Entre em contato conosco através das nossas redes sociais ou por e-mail.</p>
+                        <p>Apoie a causa!</p>
                         <div>
                             <ul class="footerRedes">
-                                <li> <a href="https://www.facebook.com/deFEMde/" target="_blank"> <i class="fab fa-facebook"></i> </a> </li>
-                                <li> <a href="https://www.instagram.com/defemde/?hl=pt-br" target="_blank"> <i class="fab fa-instagram"></i> </a> </li>
-                                <li> <a href="https://www.youtube.com/channel/UCeSuhG9_VWgCaUSwZEluLfw" target="_blank"> <i class="fab fa-youtube"></i> </a> </li>
-                                <li> <a href="mailto:defemde@gmail.com" target="_blank"> <i class="far fa-envelope"></i> </a> </li>
+                                <li>
+                                    <a href="https://www.facebook.com/deFEMde/" target="_blank">
+                                        <!-- <i class="fab fa-facebook"></i> -->
+                                        <!-- <i class="fab fa-facebook-square"></i> -->
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/defemde/?hl=pt-br" target="_blank">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.youtube.com/channel/UCeSuhG9_VWgCaUSwZEluLfw" target="_blank">
+                                        <i class="fab fa-youtube"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="mailto:defemde@gmail.com" target="_blank">
+                                        <i class="far fa-envelope"></i>
+                                        <!-- <i class="fas fa-envelope"></i> -->
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
         <footer class="footerCopyright">
             <p>Rede Feminista de Juristas © 2019. Desenvolvido por alunas da <span class="copyrightSpan">{Reprograma}</span>.</p>
         </footer>
-
     </section>
     <!--fim footer Vic-->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script src="./assets/js/script.js"></script>
 </body>
-
 </html>
