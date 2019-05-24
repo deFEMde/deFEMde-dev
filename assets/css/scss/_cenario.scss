@@ -1,0 +1,102 @@
+.cenario {
+    background-color: $bg-secundario;
+    text-align: center;
+
+    .cenarioImg {
+        background-image: url(../img/eye-for-ebony-415494-unsplash.jpg);
+        background-position-y: -160px;
+        background-repeat: no-repeat;
+        height: 500px;
+        filter: grayscale(100%);
+        background-size: cover; 
+    
+        @media (max-width: $tablet-ver) {
+            height: 20rem;
+            background-position: center;
+        }
+    }
+
+    .cenarioTitulo {
+        color: $cor-terciaria;
+
+        .marcaTextoCenario {
+            background-color: $roxo-terciario;
+            opacity: .5; //comparar com da ingrid
+            z-index: 1;
+        }
+    }
+
+    .cenarioDescricao {
+        color: $cor-terciaria;
+        font-size: 1.25rem;
+        font-weight: lighter;
+    
+        p {
+            margin: 1.875rem 0;
+        
+            span {
+                font-weight: 400;
+            }
+        }
+    }
+
+    .cenarioCards {
+        @include flex (center, space-between);
+        padding-top: 1.875rem;
+    
+        @media (max-width: $tablet-ver) {
+            flex-direction: column;
+        }
+    
+        @media (max-width: $mobile) {
+            padding-top: 2rem;
+        }
+
+        .card{    
+            width: 30%;
+            min-height: 15.0625rem;
+            background-color: $branco;
+            padding: 1.5rem;
+            border-radius: 4px;
+            box-shadow: 2px 4px 6px 2px rgba(0, 0, 0, 0.16);
+            position: relative;
+        
+            @media (max-width: $tablet-hor){
+                min-height: 18rem;
+            }
+        
+            @media (max-width: $tablet-ver){
+                width: 50%;
+                min-height: 14.8rem;
+                margin-bottom: 1.25rem;
+            }
+        
+            @media (max-width: $mobile){
+                width: 90%;
+                min-height: 17rem;
+            }
+        
+            .cardTexto {
+                h3 {
+                    text-transform: uppercase;
+                    margin: 0;
+                    margin-bottom: 10px;
+                }
+
+                p {
+                    font-size: $font-size-texto;
+                    margin: 0.3125rem;
+                }
+        
+                .cardFonte {
+                    font-weight: lighter;
+                    text-align: right;
+                    font-size: $font-size-footer;
+                    position: absolute;
+                    bottom: 1rem;
+                    right: 1rem;
+                }
+            }
+        }
+    }
+}
