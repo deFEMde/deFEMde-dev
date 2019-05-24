@@ -16,15 +16,28 @@ body{
 
 .spanMarcaTexto{
     position: relative;
+
+    .marcaTexto{
+        width: 100%;
+        display: inline-block;
+        background-color: $sublinhado;
+        height: 0.75rem;
+        position: absolute;
+        z-index: -1;
+        bottom: 0.25rem;
+    }
 }
-.marcaTexto{
-    width: 100%;
-    display: inline-block;
-    background-color: $sublinhado;
-    height: 0.75rem;
-    position: absolute;
-    z-index: -1;
-    bottom: 0.25rem;
+
+.spanMarcaTextoBold {
+    @media (max-width: $tablet-hor) {
+    font-weight: bold;
+    }
+
+    .marcaTextoBold {
+        @media (max-width: $tablet-hor) {
+            display: none;
+        }
+    }
 }
 
 .tituloDestaque{
@@ -60,8 +73,7 @@ a{
 
 .container{
     width: 80%;
-    margin: 0 auto;
-    
+    margin: 0 auto;    
     
     @media (max-width: $mobile) {
         width: 90%;
@@ -69,6 +81,13 @@ a{
     }
 }
 
+main, .cenarioContainer, .noticias, .footerBg {
+    padding: 4rem 0;
+
+    @media (max-width: $mobile){
+        padding: 3rem 0;
+    }
+}
 
 
 

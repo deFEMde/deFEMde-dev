@@ -4,15 +4,6 @@
     top: 0;
     width: 100%;
     z-index: 99;
-}
-
-
-.navSombra {
-    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
-}
-
-.containerNav {
-    @include flex(flex-start, space-between);
 
     .navContainer {
         @include flex(flex-start, space-between);

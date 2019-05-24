@@ -2,8 +2,11 @@
 // como puxar:
 // @include nome-do-elemento(parametro)
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 1aee8db5820dd6a878fc1f41c34302b8122bcc4c
 @mixin flex($align, $justify){
     display: flex;
     align-items: $align;
@@ -14,11 +17,14 @@
     font-size: $tamanho;
     color: $cor-primaria;
     font-weight: lighter;
+    margin: 0;
 }
+
 
 @mixin tituloMobile($tamanho){
     font-size: $tamanho;
     color: $cor-primaria;
     font-weight: normal;
+    margin: 0;
 }
 

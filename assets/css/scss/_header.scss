@@ -1,33 +1,20 @@
 .header {
     background-color: $bg-primario;
-    padding-top: 7.625rem; //altura nav
+    padding-top: 7.625rem;
     z-index: -2;
     position: relative;
-}
+    
+    .containerDestaque {
+        width: 70%;
+        padding-top: 4rem;
+        @media (max-width: $tablet-ver){
+            width: 100%;
+        }
 
-
-.containerDestaque {
-    width: 70%;
-    padding-top: 4rem;
-    @media (max-width: $tablet-ver){
-        width: 100%;
+        .tituloDestaque {
+            @media (max-width: $tablet-ver){
+                @include tituloMobile($font-size-titulo);
+            }
+        }
     }
-}
-
-.spanMarcaTextoHeader {
-    @media (max-width: $tablet-hor) {
-    font-weight: bold;
-    }
-}
-
-.marcaTextoHeader {
-    @media (max-width: $tablet-hor) {
-        display: none;
-    }
-}
-
-.tituloDestaque {
-@media (max-width: $tablet-ver){
-    @include tituloMobile($font-size-titulo);
-}
 }

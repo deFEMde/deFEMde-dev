@@ -1,0 +1,20 @@
+// arquivo que será compilado
+//@import 'scss/variables'
+
+//BASE
+@import './scss/variaveis';
+@import './scss/extend';
+@import './scss/mixins';
+@import './scss/base';
+
+//COMPONENTES
+@import './scss/navImpacto';
+@import './scss/impacto';
+@import './scss/footerImpacto';
+
+
+
+
+
+
+
