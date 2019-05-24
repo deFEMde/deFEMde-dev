@@ -1,0 +1,17 @@
+//flex, button, title, span;
+// como puxar:
+// @include nome-do-elemento(parametro)
+
+
+@mixin flex($align, $justify){
+    display: flex;
+    align-items: $align;
+    justify-content: $justify;
+}
+
+@mixin titulo($tamanho){
+    font-size: $tamanho;
+    color: $cor-primaria;
+    font-weight: lighter;
+}
+
