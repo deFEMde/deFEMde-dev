@@ -52,6 +52,10 @@ body{
     @include titulo($font-size-titulo)
 }//demais titulos, excetos os cards
 
+.tituloSecundario{
+    @include titulo($font-size-secundario)
+}
+
 .tituloCard{
     @include titulo($font-size-subtitulo)
 }

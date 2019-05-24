@@ -1,0 +1,70 @@
+.containerSection{
+    @include flex(center, center);
+    max-width: 87.5rem;
+    width: 100%;
+}
+
+.containerImagem{
+    max-width: 87.5rem;;
+    width: 100%;
+    height: 31.5rem;
+    object-fit: cover;
+    position: absolute;
+}
+
+.containerDiv--card{
+    width: 34.625rem;
+    height: 24.25rem;
+    opacity: 0.87;
+    border: solid 1px #f2f2f2;
+    background-color: #ffffff;
+    margin: 3.4375rem 8.0625rem 3.8125rem 44.8125rem;
+}
+
+.titulo{
+    margin: 2.6875rem 2.875rem 2.75rem 2.875rem;
+}
+
+.conteudo{
+    margin: 0 2.875rem;
+    height: 9.5rem;
+    width: 28.875rem;
+    font-size: $font-size-subtitulo;
+    font-weight: lighter;
+}
+
+.botao{
+    @extend %botao;
+    margin: 1.5rem 2.6875rem;
+}
+
+.container{
+    @include flex(center, center);
+    flex-direction: column;
+}
+
+.containerDiv--advocacy{
+    width: 58.9375rem;
+    @include flex(center, center);
+    flex-direction: column;
+}
+
+.containerDiv--direitos{
+    width: 58.9375rem;
+    @include flex(center, center);
+    flex-direction: column;
+}
+
+.containerDiv--teses{
+    width: 58.9375rem;
+    @include flex(center, center);
+    flex-direction: column;
+}
+
+.containerDiv--acoes{
+    width: 58.9375rem;
+    @include flex(center, center);
+    flex-direction: column;
+}
+
+
