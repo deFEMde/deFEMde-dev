@@ -6,7 +6,7 @@
 %botao{
     font-family: $font-secundaria;
     border: 1px solid $cor-primaria;
-    border-radius: 4px;
+    border-radius: 0.25rem;
     padding: 0.7rem 1rem;
     background-color: $cor-terciaria;
     cursor: pointer;
@@ -15,7 +15,31 @@
     position: relative;
     transition: 1s transform ease;
     transform: scale(1);
-    box-shadow: 1.5px 2px 2px 1.5px rgba(0, 0, 0, 0.16);
+    box-shadow: 0.09375rem 0.125rem 0.125rem 0.09375rem rgba(0, 0, 0, 0.16);
+
+    // 1024px
+    @media(max-width:$tablet-hor){
+        border-radius: 0.1828rem;
+        padding: 0.512rem 0.7314rem;
+        font-size: $font-size-texto;
+        font-weight: lighter;
+    }
+    
+    // 768px
+    @media(max-width:$tablet-ver){
+        border-radius: 0.1875rem;
+        padding: 0.525rem 0.75rem;
+        font-size: $font-size-texto;
+        font-weight: lighter;
+    }
+
+    // 420px
+    @media(max-width:$mobile){
+        border-radius: 0.1025rem;
+        padding: 0.2871rem 0.41rem;
+        font-size: $font-size-texto;
+        font-weight: lighter;
+    }
 }
 
 %botao:focus{
